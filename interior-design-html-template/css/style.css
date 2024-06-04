@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #DFB163;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2039,7 +2039,7 @@ textarea.form-control {
 
 .form-check-input[disabled] ~ .form-check-label,
 .form-check-input:disabled ~ .form-check-label {
-  color: #6c757d;
+  color: #000000;
 }
 
 .form-check-label {
@@ -2378,22 +2378,22 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus, .btn-primary.focus {
   color: #212529;
-  background-color: #d8a143;
-  border-color: #d69c39;
+  background-color: #ffffff;
+  border-color: #ffffff;
   box-shadow: 0 0 0 0.2rem rgba(195, 156, 90, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #212529;
-  background-color: #DFB163;
-  border-color: #DFB163;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #212529;
-  background-color: #d69c39;
-  border-color: #d4972e;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2661,14 +2661,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #DFB163;
-  border-color: #DFB163;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:hover {
   color: #212529;
-  background-color: #DFB163;
-  border-color: #DFB163;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2676,15 +2676,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #DFB163;
+  color: #ffffff;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #212529;
-  background-color: #DFB163;
-  border-color: #DFB163;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2918,7 +2918,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #DFB163;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -3215,7 +3215,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #DFB163;
+  background-color: #ffffff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3504,8 +3504,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #DFB163;
-  background-color: #DFB163;
+  border-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3565,8 +3565,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #DFB163;
-  background-color: #DFB163;
+  border-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3790,7 +3790,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #DFB163;
+  background-color: #ffffff;
   border: 0;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
@@ -3818,7 +3818,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #DFB163;
+  background-color: #ffffff;
   border: 0;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
@@ -3849,7 +3849,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #DFB163;
+  background-color: #ffffff;
   border: 0;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
@@ -9265,7 +9265,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #DFB163 !important;
+  color: #ffffff !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9652,17 +9652,17 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #DFB163;
+  color: #000000;
   background: transparent;
-  border: 1px solid #DFB163;
+  border: 1px solid #000000;
   font-size: 22px;
   transition: .3s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-  color: #252531;
-  background: #DFB163;
+  color: #0000001c;
+  background: #0000001c;
 }
 
 .contact-form .help-block ul {
